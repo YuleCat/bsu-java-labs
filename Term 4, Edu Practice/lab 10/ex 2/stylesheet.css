@@ -1,0 +1,210 @@
+body {
+    margin:0;
+    font-family: Corbel;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Comic Runes;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.index {
+    background-image: url(img/index-background.jpg);
+    background-size: cover;
+}
+
+.index p {
+    color: whitesmoke;
+}
+
+.index-description {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+}
+
+.index-description h2, h3 {
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.index-description p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.worlds p {
+    padding-left: 100px;
+}
+
+ul {
+    padding-left: 500px;
+}
+
+ul li {
+    list-style-position: inside;
+    color: azure;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+footer a, ul li a {
+    color: whitesmoke;
+}
+
+footer a:hover, ul li a:hover {
+    color: beige;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 1px 1px 2px darkslategray;
+}
+
+td a {
+    color: bisque;
+}
+
+td a:hover {
+    color: blanchedalmond;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+tr:nth-child(even) {
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+.video {
+    margin-left: 100px;
+}
+
+.worlds-yggdrasil {
+    float: right;
+    width: 300px;
+    border: 2px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.worlds-odin {
+    float: left;
+    width: 280px;
+    border: 2px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+}

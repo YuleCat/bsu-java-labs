@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Главная</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="menu">
+            <center>
+                <a href="index.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="input-form.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="table.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="map.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+            </center>
+        </div>
+        
+        <script>            
+            function mouseInCircle(img) {
+                img.src = "img/green.png";
+            }
+            
+            function mouseOutOfCircle(img) {
+                img.src = "img/red.png";
+            }
+        </script>
+    </body>
+</html>

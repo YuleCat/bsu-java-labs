@@ -1,0 +1,14 @@
+14  4   2   0
+E E E S E E E S E E E E E
+G B E S E E E B E B E B E
+G B E G G G B B E B S B E
+G E E B E E B B E S E E T
+G E E B E B S E E B G B S
+G G E B B B E E S B G E E
+B B B B B G G S B B G B E
+E E E S G B E B E B E B E
+S B W S E B E B E W W B W
+W B E B E B B B E B S B W
+G B E B E B B B E E E E W
+W B E E E E E E E B E B W
+W B E B E E E E E B B B E

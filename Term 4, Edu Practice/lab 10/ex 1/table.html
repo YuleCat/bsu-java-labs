@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Расписание</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="menu">
+            <center>
+                <a href="index.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="input-form.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="table.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="map.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+            </center>
+        </div>
+        
+        <script>            
+            function mouseInCircle(img) {
+                img.src = "img/green.png";
+            }
+            
+            function mouseOutOfCircle(img) {
+                img.src = "img/red.png";
+            }
+        </script>
+        
+        <section id="timetable" class="table-section">
+            <p class="intro-text">Расписание</p>
+            <table>
+              <tr>
+                <th>Время</th>
+                <th>ПН</th>
+                <th>ВТ</th>
+                <th>СР</th>
+                <th>ЧТ</th>
+                <th>ПТ</th>
+                <th>СБ</th>
+              </tr>
+              <tr>
+                <td>8:15-9:35</td>
+                <td>Физ-ра</td>
+                <td></td>
+                <td>ФАН</td>
+                <td>Физ-ра</td>
+                <td>ТА</td>
+                <td>ДУ</td>
+              </tr>
+              <tr>
+                <td>9:45-11:05</td>
+                <td>ТА</td>
+                <td></td>
+                <td>ТВиМС</td>
+                <td>ТВиМС</td>
+                <td>ОС</td>
+                <td>ДУ</td>
+              </tr>
+              <tr>
+                <td>11:15-12:35</td>
+                <td>ОС</td>
+                <td></td>
+                <td>ФАН</td>
+                <td>ТА</td>
+                <td>МЧА</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>13:00-14:20</td>
+                <td>МЧА</td>
+                <td></td>
+                <td>ТВиМС</td>
+                <td></td>
+                <td>ТА</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>17:30-20:20</td>
+                <td></td>
+                <td>УП</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+    </section>    
+    </body>
+</html>

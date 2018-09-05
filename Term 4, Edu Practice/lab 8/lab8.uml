@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab8</OriginalElement>
+  <nodes>
+    <node x="206.67727272727268" y="0.0">lab8.gameObjects.GameObject</node>
+    <node x="641.0" y="160.0">lab8.gameObjects.tiles.GrassTile</node>
+    <node x="277.0" y="390.0">lab8.textures.Tanks</node>
+    <node x="0.0" y="315.0">lab8.WrongLevelFileException</node>
+    <node x="127.99999999999997" y="160.0">lab8.gameObjects.tiles.EmptyTile</node>
+    <node x="16.0" y="80.0">lab8.gameObjects.tanks.Tank</node>
+    <node x="148.0" y="390.0">lab8.Vector</node>
+    <node x="403.0" y="160.0">lab8.gameObjects.tiles.WaterTile</node>
+    <node x="523.0" y="160.0">lab8.gameObjects.tiles.TrackTile</node>
+    <node x="651.0" y="390.0">lab8.textures.Tiles</node>
+    <node x="437.0" y="315.0">lab8.BattleCityApp</node>
+    <node x="418.5" y="80.0">lab8.gameObjects.tiles.Tile</node>
+    <node x="529.0" y="390.0">lab8.Main</node>
+    <node x="0.0" y="160.0">lab8.gameObjects.tanks.PlayerTank</node>
+    <node x="0.0" y="390.0">lab8.Controller</node>
+    <node x="212.74999999999997" y="240.0">lab8.gameObjects.tiles.SteelTile</node>
+    <node x="403.0" y="390.0">lab8.Game</node>
+    <node x="605.0" y="315.0">lab8.GamePanel</node>
+    <node x="326.75" y="240.0">lab8.gameObjects.tiles.BrickTile</node>
+    <node x="250.99999999999997" y="160.0">lab8.gameObjects.tiles.DestructibleTile</node>
+    <node x="227.0" y="315.0">lab8.gameObjects.tiles.WrongArrayException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab8.gameObjects.tiles.TrackTile" target="lab8.gameObjects.tiles.Tile">
+      <point x="0.0" y="-15.0" />
+      <point x="572.0" y="140.0" />
+      <point x="466.79999999999995" y="140.0" />
+      <point x="13.800000000000011" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.WaterTile" target="lab8.gameObjects.tiles.Tile">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.EmptyTile" target="lab8.gameObjects.tiles.Tile">
+      <point x="0.0" y="-15.0" />
+      <point x="179.49999999999997" y="130.0" />
+      <point x="425.4" y="130.0" />
+      <point x="-27.600000000000023" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.SteelTile" target="lab8.gameObjects.tiles.DestructibleTile">
+      <point x="0.0" y="-15.0" />
+      <point x="259.75" y="215.0" />
+      <point x="284.0" y="215.0" />
+      <point x="-33.0" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.DestructibleTile" target="lab8.gameObjects.tiles.Tile">
+      <point x="0.0" y="-15.0" />
+      <point x="317.0" y="140.0" />
+      <point x="439.19999999999993" y="140.0" />
+      <point x="-13.800000000000011" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.Tile" target="lab8.gameObjects.GameObject">
+      <point x="0.0" y="-15.0" />
+      <point x="453.0" y="55.0" />
+      <point x="293.6772727272727" y="55.0" />
+      <point x="29.0" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tanks.PlayerTank" target="lab8.gameObjects.tanks.Tank">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.GrassTile" target="lab8.gameObjects.tiles.Tile">
+      <point x="0.0" y="-15.0" />
+      <point x="689.5" y="130.0" />
+      <point x="480.6" y="130.0" />
+      <point x="27.600000000000023" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tanks.Tank" target="lab8.gameObjects.GameObject">
+      <point x="0.0" y="-15.0" />
+      <point x="54.0" y="55.0" />
+      <point x="235.67727272727268" y="55.0" />
+      <point x="-29.0" y="15.0" />
+    </edge>
+    <edge source="lab8.gameObjects.tiles.BrickTile" target="lab8.gameObjects.tiles.DestructibleTile">
+      <point x="2.8421709430404007E-14" y="-15.0" />
+      <point x="374.25" y="215.0" />
+      <point x="350.0" y="215.0" />
+      <point x="33.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.010200668896321" x="521.6482370468466" y="1480.6978976990565" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

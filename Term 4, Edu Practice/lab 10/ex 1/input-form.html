@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Форма для ввода</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="menu">
+            <center>
+                <a href="index.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="input-form.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="table.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+                <a href="map.html"><img onmouseover="mouseInCircle(this)" onmouseout="mouseOutOfCircle(this)" src="img/red.png"></a>
+            </center>
+        </div>
+        
+        <script>            
+            function mouseInCircle(img) {
+                img.src = "img/green.png";
+            }
+            
+            function mouseOutOfCircle(img) {
+                img.src = "img/red.png";
+            }
+            
+            function call(){
+                alert("Thank you!");
+            }
+        </script>
+        
+        <form>
+            <ul class="form-style-1">
+                <li><label>Full name</label><input type="text" name="field1" class="field-divided" placeholder="Name" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Surname"/></li>
+                <li>
+                    <label>Email</label>
+                    <input type="email" name="field3" class="field-long" />
+                </li>
+                <li>
+                    <label>Higher education</label>
+                    <select name="field4" class="field-select">
+                    <option value="BSU">BSU</option>
+                    <option value="BSUIR">BSUIR</option>
+                    <option value="BNTU">BNTU</option>
+                    <option value="MIT">MIT</option>
+                    <option value="Harvard">Harvard</option>
+                    </select>
+                </li>
+                <li>
+                    <label>Sex</label>
+                    <input type="radio" name="field6" value="Male" checked="checked" /> Male<br/>
+                    <input type="radio" name="field6" value="Female" /> Female<br/>
+                    <input type="radio" name="field6" value="Other" /> Other<br />
+                </li>
+                <li>
+                    <label>Choose photo</label>
+                    <input name="send_f" type="file" size="30" maxlength="60"/>
+                </li>
+                <li>
+                    <label>About me</label>
+                    <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+                </li>
+                <li>
+                    <input type="checkbox" name="field7" value="agreement" checked="checked" /> I agree<br/>
+                </li>
+                <li>
+                    <input type="submit" onclick="call()" value=""/>
+                    <input type="reset" value=""/>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
