@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Exported_Goods_list>
+<Exported_goods>
+<Name_of_good>Salt</Name_of_good>
+<Importing_country>Germany</Importing_country>
+<Amount_of_consignment>15</Amount_of_consignment>
+</Exported_goods>
+<Exported_goods>
+<Name_of_good>Salt</Name_of_good>
+<Importing_country>France</Importing_country>
+<Amount_of_consignment>47</Amount_of_consignment>
+</Exported_goods>
+<Exported_goods>
+<Name_of_good>Apples</Name_of_good>
+<Importing_country>Russia</Importing_country>
+<Amount_of_consignment>121</Amount_of_consignment>
+</Exported_goods>
+<Exported_goods>
+<Name_of_good>Pens</Name_of_good>
+<Importing_country>Israel</Importing_country>
+<Amount_of_consignment>1211</Amount_of_consignment>
+</Exported_goods>
+</Exported_Goods_list>
